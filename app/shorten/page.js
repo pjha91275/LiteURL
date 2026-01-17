@@ -42,7 +42,7 @@ const Shorten = () => {
       <h1 className="font-bold text-3xl">Generate your short URLs</h1>
       <div className="flex flex-col gap-2">
         <input type="text" placeholder="Enter your URL" onChange={e => { seturl(e.target.value) }} className="text-xl px-4 py-3 focus:outline-purple-600 rounded-md bg-[#0E3C74] text-white" />
-        <input type="text" placeholder="Enter your URL" onChange={e => { setshorturl(e.target.value) }} className="text-xl px-4 py-3 focus:outline-purple-600 rounded-md bg-[#0E3C74] text-white" />
+        <input type="text" placeholder="Enter your Short URL" onChange={e => { setshorturl(e.target.value) }} className="text-xl px-4 py-3 focus:outline-purple-600 rounded-md bg-[#0E3C74] text-white" />
         <button onClick={generate} className='text-xl bg-white text-black hover:bg-[#14559B] hover:text-white rounded-lg shadow-lg p-3 py-3 my-3 font-bold'>Generate</button>
       </div>
 
